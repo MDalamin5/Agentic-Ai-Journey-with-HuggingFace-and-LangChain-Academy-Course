@@ -46,3 +46,4 @@ wolframalpha
 grandalf
 langchain-anthropic
 langchain-experimental
+huggingface_hub
