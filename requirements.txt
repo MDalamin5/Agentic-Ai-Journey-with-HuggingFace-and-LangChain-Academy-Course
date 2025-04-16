@@ -48,3 +48,4 @@ langchain-anthropic
 langchain-experimental
 huggingface_hub
 langgraph
+langfuse
