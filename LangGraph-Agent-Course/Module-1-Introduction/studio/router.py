@@ -22,7 +22,7 @@ def multiply(a: int, b: int) -> int:
 
 # LLM with bound tool
 # llm = ChatOpenAI(model="gpt-4o")
-llm = ChatGroq(model_name = "meta-llama/llama-4-scout-17b-16e-instruct", groq_api_key=groq_api_key)
+llm = ChatGroq(model_name = "qwen-qwq-32b", groq_api_key=groq_api_key)
 llm_with_tools = llm.bind_tools([multiply])
 
 # Node

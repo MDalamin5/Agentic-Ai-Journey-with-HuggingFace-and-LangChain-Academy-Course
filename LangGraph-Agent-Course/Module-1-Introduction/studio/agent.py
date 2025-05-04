@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from langgraph.graph import START, StateGraph, MessagesState
 from langgraph.prebuilt import tools_condition, ToolNode
 load_dotenv()
-gorq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY")
 
 def add(a: int, b: int) -> int:
     """Adds a and b.
@@ -40,7 +40,7 @@ tools = [add, multiply, divide]
 
 # Define LLM with bound tools
 # llm = ChatOpenAI(model="gpt-4o")
-llm = ChatGroq(model_name = "meta-llama/llama-4-scout-17b-16e-instruct", gorq_api_key=gorq_api_key)
+llm = ChatGroq(model_name = "qwen-qwq-32b", groq_api_key=groq_api_key)
 llm_with_tools = llm.bind_tools(tools)
 
 # System message
