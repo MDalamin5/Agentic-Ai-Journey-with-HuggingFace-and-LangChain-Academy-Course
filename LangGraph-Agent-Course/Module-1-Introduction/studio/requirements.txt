@@ -1,6 +1,7 @@
 langgraph
 langgraph-prebuilt
 langchain-core
+langchain-groq
 langchain-community
 langchain-openai
 

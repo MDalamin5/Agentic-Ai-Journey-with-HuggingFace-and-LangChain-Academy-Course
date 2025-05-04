@@ -2,6 +2,9 @@ from langchain_openai import ChatOpenAI
 from langgraph.graph import MessagesState
 from langgraph.graph import StateGraph, START, END
 from langgraph.prebuilt import ToolNode, tools_condition
+from langchain_core.messages import HumanMessage
+from langchain_community.llms import Ollama
+from langchain_community.chat_models import ChatOllama
 from langchain_groq import ChatGroq
 import os
 from dotenv import load_dotenv
