@@ -1,8 +1,16 @@
 from langchain_core.messages import SystemMessage
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
+import os
+from dotenv import load_dotenv
+
 
 from langgraph.graph import START, StateGraph, MessagesState
 from langgraph.prebuilt import tools_condition, ToolNode
+load_dotenv()
+
+groq_api_key = os.getenv("GROQ_API_KEY")
+llm = ChatGroq(model_name = "meta-llama/llama-4-scout-17b-16e-instruct", groq_api_key=groq_api_key)
+
 
 def add(a: int, b: int) -> int:
     """Adds a and b.
@@ -34,7 +42,6 @@ def divide(a: int, b: int) -> float:
 tools = [add, multiply, divide]
 
 # Define LLM with bound tools
-llm = ChatOpenAI(model="gpt-4o")
 llm_with_tools = llm.bind_tools(tools)
 
 # System message
