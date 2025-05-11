@@ -122,7 +122,8 @@ Pull requests and suggestions are welcome!
 
 ## ✉ Contact
 
-For feedback or questions, please contact \[Md Al Amin / GitHub Handle] or open an issue.
+For feedback or questions, please contact [Md Al Amin](https://www.linkedin.com/in/mdalamin5/) or open an issue.
+
 
 ---
 
