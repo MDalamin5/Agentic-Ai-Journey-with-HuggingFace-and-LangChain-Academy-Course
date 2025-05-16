@@ -15,3 +15,4 @@ langgraph-cli[inmem]
 arxiv
 wikipedia
 langchain-tavily
+langgraph-supervisor

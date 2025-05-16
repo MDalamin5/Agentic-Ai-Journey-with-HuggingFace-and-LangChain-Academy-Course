@@ -49,3 +49,4 @@ langchain-experimental
 huggingface_hub
 langgraph
 langfuse
+langgraph-supervisor
