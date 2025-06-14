@@ -1,4 +1,4 @@
-# Memory Agent Streamlit App - README
+# MemorySync-AI Chatbot - Agent based Long term memory Management
 
 ## Overview
 This is a Streamlit application that converts the Memory Agent notebook into an interactive web application. The app allows users to manage ToDo lists with the help of an AI assistant that has long-term memory capabilities.
@@ -14,6 +14,7 @@ This is a Streamlit application that converts the Memory Agent notebook into an 
 - Python 3.8+
 - Streamlit
 - LangChain
+- Langgraph
 - Trustcall
 - Groq API key
 
@@ -34,18 +35,6 @@ Run the app with the following command:
 ```bash
 streamlit run app.py
 ```
-
-The app will be available at http://localhost:8501 in your web browser.
-
-## Deployment
-
-To deploy this app to Streamlit Cloud:
-
-1. Create a GitHub repository and push the code
-2. Sign up for Streamlit Cloud (https://streamlit.io/cloud)
-3. Connect your GitHub repository
-4. Add your API keys as secrets in the Streamlit Cloud dashboard
-5. Deploy the app
 
 ## App Structure
 
