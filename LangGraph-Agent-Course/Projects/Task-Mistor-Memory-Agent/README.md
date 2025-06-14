@@ -3,11 +3,11 @@
 ## Overview
 Developed an AI chatbot with cross-thread memory for personalized user interactions and to-do list management.
 
-•Built a context-aware chatbot with voice interaction. Used LangGraph to orchestrate agents for user profile and task updates. Enhanced user engagement with intuitive voice input/output.
+- Built a context-aware chatbot with voice interaction. Used LangGraph to orchestrate agents for user profile and task updates. Enhanced user engagement with intuitive voice input/output.
 
-•Implemented cross-thread memory for long-term personalization. Leveraged InMemoryStore to retain user data across sessions. Improved response relevance with persistent context.
+- Implemented cross-thread memory for long-term personalization. Leveraged InMemoryStore to retain user data across sessions. Improved response relevance with persistent context.
 
-•Enabled dynamic ToDo list updates. Applied trustcall extractors to manage tasks via multi-agent workflows. Streamlined task tracking for users.
+- Enabled dynamic ToDo list updates. Applied trustcall extractors to manage tasks via multi-agent workflows. Streamlined task tracking for users.
 
 ## Features
 - Multiple chat sessions with AI assistant
