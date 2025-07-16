@@ -17,3 +17,5 @@ wikipedia
 langchain-tavily
 langgraph-supervisor
 sentence_transformers
+playwright
+lxml
