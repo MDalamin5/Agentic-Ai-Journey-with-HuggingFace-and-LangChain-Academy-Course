@@ -1,5 +1,7 @@
 import asyncio
 from playwright.async_api import async_playwright
+import time
+
 
 async def main():
     playwright = await async_playwright().start()
@@ -8,12 +10,16 @@ async def main():
     page = await context.new_page()
 
     
-    link = "https://jobs.bdjobs.com/jobdetails/?id=1375785&ln=1&JobKeyword=machine%20learning%20enginner"
+    link = "https://bdjobs.com/"
     await page.goto(link)
-    h1_text = await page.inner_text("body")
-    print("Extracted H1:", h1_text)
+    await page.click("text=Sign in")
+    # h1_text = await page.inner_text("body")
+    # print("Extracted H1:", h1_text)
 
+    
+    time.sleep(5)
     await browser.close()
     await playwright.stop()  # ✅ Important: Clean shutdown to avoid warnings
 
 asyncio.run(main())
+
