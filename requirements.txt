@@ -19,3 +19,5 @@ langgraph-supervisor
 sentence_transformers
 playwright
 lxml
+browser-use
+lmnr[all]
