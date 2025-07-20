@@ -10,7 +10,7 @@ async def main():
     page = await context.new_page()
 
     
-    link = "https://bdjobs.com/"
+    link = "https://linkedin.com/"
     await page.goto(link)
     await page.click("text=Sign in")
     # h1_text = await page.inner_text("body")

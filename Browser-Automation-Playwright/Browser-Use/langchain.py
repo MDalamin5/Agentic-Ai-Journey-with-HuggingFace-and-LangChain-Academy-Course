@@ -19,7 +19,7 @@ async def main():
     
     
     agent = Agent(
-        task="###",
+        task="go to linkedin.com and click on Sign in button and close the task.",
         # message_context="when you get the job list. Collect 10 job title and company name only.",
         llm=llm,
         planner_llm=planner_llm,
