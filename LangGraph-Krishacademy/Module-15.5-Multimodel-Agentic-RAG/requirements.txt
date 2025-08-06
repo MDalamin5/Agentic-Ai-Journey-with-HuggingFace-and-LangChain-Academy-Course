@@ -1,0 +1,12 @@
+langchain
+langchain-groq
+langchain-community
+transformers
+torch
+faiss-cpu
+pymupdf
+python-dotenv
+numpy
+Pillow
+jupyterlab
+scikit-learn
